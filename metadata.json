@@ -1,0 +1,9 @@
+{
+  "name": "Reserva de Equipos",
+  "description": "Herramienta para agendar y administrar el uso de equipos compartidos en la empresa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
+

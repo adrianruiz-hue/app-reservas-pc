@@ -1,0 +1,20 @@
+{
+  "collections": [
+    {
+      "name": "bookings",
+      "description": "Store all equipment bookings",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "equipmentId": { "type": "string" },
+          "userName": { "type": "string" },
+          "date": { "type": "string" },
+          "startTime": { "type": "string" },
+          "endTime": { "type": "string" },
+          "purpose": { "type": "string" }
+        },
+        "required": ["equipmentId", "userName", "date", "startTime", "endTime"]
+      }
+    }
+  ]
+}
