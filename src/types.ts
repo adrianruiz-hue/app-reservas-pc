@@ -22,7 +22,7 @@ export const EQUIPMENTS: Equipment[] = [
   { 
     id: 'eq-1', 
     name: 'Equipo 01',
-    fullName: 'Oscilloscope 7000x', 
+    fullName: 'Tinkpad-1', 
     color: 'bg-indigo-50 border-l-4 border-indigo-500',
     textColor: 'text-indigo-700',
     subTextColor: 'text-indigo-600',
@@ -31,7 +31,7 @@ export const EQUIPMENTS: Equipment[] = [
   { 
     id: 'eq-2', 
     name: 'Equipo 02', 
-    fullName: 'Spectrum Analyzer',
+    fullName: 'Tinkpad-2',
     color: 'bg-emerald-50 border-l-4 border-emerald-500',
     textColor: 'text-emerald-700',
     subTextColor: 'text-emerald-600',
@@ -40,7 +40,7 @@ export const EQUIPMENTS: Equipment[] = [
   { 
     id: 'eq-3', 
     name: 'Equipo 03', 
-    fullName: 'Thermal Chamber',
+    fullName: 'Tinkpad-3',
     color: 'bg-rose-50 border-l-4 border-rose-500',
     textColor: 'text-rose-700',
     subTextColor: 'text-rose-600',
