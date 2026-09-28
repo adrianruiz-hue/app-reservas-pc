@@ -40,7 +40,7 @@ async function startServer() {
                     {
                       decoratedText: {
                         topLabel: "Equipo",
-                        text: booking.equipmentId === 'eq-1' ? 'Oscilloscope 7000x' : booking.equipmentId === 'eq-2' ? 'Spectrum Analyzer' : 'Thermal Chamber',
+                        text: booking.equipmentId === 'eq-1' ? 'Tinkpad-1' : booking.equipmentId === 'eq-2' ? 'Tinkpad-2' : 'Tinkpad-3',
                         startIcon: { knownIcon: "CONFIRMATION_NUMBER_ICON" }
                       }
                     },
