@@ -86,7 +86,7 @@ export function Timeline({ date, bookings, onDeleteBooking }: TimelineProps) {
             ))}
           </div>
 
-          <div className="absolute inset-0 grid grid-cols-3 pointer-events-none">
+          <div className="absolute inset-0 grid grid-cols-4 pointer-events-none">
             {/* Column Dividers */}
             <div className="absolute inset-y-0 left-1/4 w-px bg-slate-100"></div>
             <div className="absolute inset-y-0 left-1/2 w-px bg-slate-100"></div>
