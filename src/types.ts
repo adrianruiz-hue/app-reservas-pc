@@ -40,7 +40,7 @@ export const EQUIPMENTS: Equipment[] = [
   { 
     id: 'eq-3', 
     name: 'Equipo 03', 
-    fullName: 'Tinkpad-3',
+    fullName: 'Toshiba-linux-ubuntu',
     color: 'bg-rose-50 border-l-4 border-rose-500',
     textColor: 'text-rose-700',
     subTextColor: 'text-rose-600',
