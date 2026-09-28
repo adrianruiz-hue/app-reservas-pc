@@ -51,7 +51,7 @@ export function Timeline({ date, bookings, onDeleteBooking }: TimelineProps) {
       {/* Grid Header */}
       <div className="flex border-b border-slate-200 flex-shrink-0">
         <div className="w-20 border-r border-slate-200"></div>
-        <div className="flex-1 grid grid-cols-3">
+        <div className="flex-1 grid grid-cols-4">
           {EQUIPMENTS.map((eq, i) => (
             <div key={eq.id} className={cn("p-4 text-center", i < EQUIPMENTS.length - 1 ? "border-r border-slate-100" : "")}>
               <p className="text-xs font-bold text-slate-400 uppercase tracking-widest">{eq.name}</p>
@@ -80,7 +80,7 @@ export function Timeline({ date, bookings, onDeleteBooking }: TimelineProps) {
         {/* Main Columns */}
         <div className="flex-1 relative" style={{ minHeight: `${contentHeight}px` }}>
           {/* Horizontal Grid Lines Layer */}
-          <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute inset-0 grid grid-cols-4 pointer-events-none">
             {hours.map((hour, i) => (
               <div key={hour} className="absolute left-0 right-0 border-t border-slate-100" style={{ top: `${i * ROW_HEIGHT + TOP_OFFSET}px` }}></div>
             ))}
@@ -88,8 +88,9 @@ export function Timeline({ date, bookings, onDeleteBooking }: TimelineProps) {
 
           <div className="absolute inset-0 grid grid-cols-3 pointer-events-none">
             {/* Column Dividers */}
-            <div className="absolute inset-y-0 left-1/3 w-px bg-slate-100"></div>
-            <div className="absolute inset-y-0 left-2/3 w-px bg-slate-100"></div>
+            <div className="absolute inset-y-0 left-1/4 w-px bg-slate-100"></div>
+            <div className="absolute inset-y-0 left-1/2 w-px bg-slate-100"></div>
+            <div className="absolute inset-y-0 left-3/4 w-px bg-slate-100"></div>
 
             {/* Event Slots */}
             {EQUIPMENTS.map((eq, colIndex) => {
