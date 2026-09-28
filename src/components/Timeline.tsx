@@ -97,7 +97,7 @@ export function Timeline({ date, bookings, onDeleteBooking }: TimelineProps) {
               const eqBookings = todaysBookings.filter(b => b.equipmentId === eq.id);
               
               return (
-                <div key={eq.id} className="relative pointer-events-auto" style={{ gridColumnStart: colIndex + 1 }}>
+                <div key={eq.id} className="relative pointer-events-auto col-span-1 min-w-0" style={{ gridColumn: `${colIndex + 1} / span 1` }}>
                   {eqBookings.map(booking => {
                     const top = getTopPx(booking.startTime);
                     const height = getHeightPx(booking.startTime, booking.endTime);
